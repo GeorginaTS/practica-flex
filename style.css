@@ -8,36 +8,36 @@
 /*ESTILOS GLOBAL*/
 
 body{
-    background-color: black;
     font-size: 1em;
+    background-color: black;
+    
 }
 h1 {
+    font-size: 48px;
+    line-height: 78px;
     color:#FD7D54;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
-    font-size: 48px;
-    line-height: 78px;
-/* identical to box height */
     text-align: center;
     letter-spacing: 0.3em;
 }
 h2{
-    text-transform: uppercase;
-    color: white;
     font-size: 1.5em;
+    text-transform: uppercase;
+    color: white;  
 }
 p{
     color: white;
     padding: 5px;
 }
 button{
+    font-size: 1em;
+    font-weight: bold;
     background-color: black;
     color:#41C3F6;
     cursor: pointer;
     text-transform: uppercase;
-    font-size: 1em;
-    font-weight: bold;
     border: 0px;
 }
 /*ESTILOS LAYOUT*/
@@ -70,7 +70,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(img/unsplash_NTYYL9Eb9y8.png);
+    background-image: url(./img/unsplash_NTYYL9Eb9y8.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
@@ -88,13 +88,13 @@ main .content .squares {
     justify-content: space-around;
     margin-bottom: 1.2em;
 }
-main .content .squares .square {
-    border: white solid 2px;
+main .content .squares .square {  
     width: 175px;
     height: 300px;
     margin: 10px;
     padding: 10px;
     text-align: center;
+    border: white solid 2px;
 }
 main .content .squares .square div{
     display: flex;
@@ -109,9 +109,9 @@ main .content .squares .square div img{
 
 }
 main .content .squares div .sphere {
-    background-color: #C90A47;
     width: 80px;
     height: 80px;
+    background-color: #C90A47;
     border-radius: 50%;
     border:0px;
     box-shadow: inset 6px -3px 4px #8E0833, inset -3px 3px 7px 1px rgba(255, 255, 255, 0.35);
