@@ -70,7 +70,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./img/unsplash_NTYYL9Eb9y8.png);
+    background-image: url(img/unsplash_NTYYL9Eb9y8.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
