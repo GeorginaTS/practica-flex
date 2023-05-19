@@ -60,7 +60,7 @@ button {
 }
 /*ESTILOS LAYOUT*/
 /*header*/
-nav { border: 1px solid yellow;
+nav {/* border: 1px solid yellow;*/
 
   display: flex;
   justify-content: center;
@@ -76,7 +76,7 @@ nav { border: 1px solid yellow;
   font-variant: all-small-caps;
   color: white;
 }
-nav ul {border:1px solid green;
+nav ul {/*border:1px solid green;*/
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -102,7 +102,7 @@ main {
   background-size: cover;
 }
 
-main .content { border:1px solid blueviolet;
+main .content {/*border:1px solid blueviolet;*/
     min-width: 75%;
   width: 75%;
   padding: 20px;
@@ -110,7 +110,7 @@ main .content { border:1px solid blueviolet;
   background-color: black;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-main .content .squares { border: 1px solid orangered;
+main .content .squares {/* border: 1px solid orangered;*/
   display: flex;
   justify-content: space-around;
   margin-bottom: 30px;
