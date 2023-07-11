@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+body {
+ background-color:#2F303A;
+ color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav div a {
+    background-color: transparent;
+    color: white;
+    font-size: 0.9rem;
+    padding: 5px;
+    border: 0px;
+}
+button {
+    background-color: transparent;
+    color: white;
+    border: 0px;   
+}
+.accent-text{
+    color: palevioletred
+}
+form{
+    background-color: #202027;
+}
+input {
+    background-color: #202027;
+    border: 1px solid #2F303A;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #202027;
+    height: 50px;
+}
