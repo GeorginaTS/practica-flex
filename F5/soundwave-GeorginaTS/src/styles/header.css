@@ -1,0 +1,39 @@
+/* MENU */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+nav {/* border: 1px solid blue; */
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 5px;
+}
+
+nav div a {
+  background-color: transparent;
+  color: white;
+  font-size: 0.9rem;
+  padding: 5px;
+  border: 0px;
+  text-decoration: none;
+}
+
+nav div a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin: 5px;
+  width: 50px;
+}

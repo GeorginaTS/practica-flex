@@ -1,0 +1,39 @@
+
+#root {border: 1px solid #21c9cc;
+    display: grid;
+    grid-template-rows: 95px 1fr 50px; 
+    width: 100vw;
+    height: 100vh;
+  } 
+  #discover-section main{ border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .discover-btns button {
+    background-color: #202027;
+    margin: 5px;
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+  }
+  
+  .discover-btns img {
+    width: 25px;
+    margin-bottom: 5px;
+  }
+  
+  .cover-img {
+    width:50%;
+    max-width: 400px;
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cover-img img {
+    width: 80%;
+    margin: 20px
+  }

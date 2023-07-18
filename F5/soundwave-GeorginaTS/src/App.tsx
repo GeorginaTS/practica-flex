@@ -1,16 +1,17 @@
-import { useState } from 'react'
-import './App.css'
+
+
 import { Menu } from './components/Menu'
 
 import { Discover } from './pages/Discover'
 import { Join } from './pages/Join'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import ReactDOM from 'react-dom/client'
 import { Feel } from './pages/Feel'
 
+import './styles/variables.css'
+import './App.css'
+
 const App = () =>  {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -18,6 +19,7 @@ const App = () =>  {
       <Menu/>
       <Routes>
           <Route path='/' element={<Feel/>} />
+          <Route path='/feel' element={<Feel/>} />
           <Route path='/discover' element={<Discover/>} />
           <Route path='/join' element={<Join />} />
       </Routes>

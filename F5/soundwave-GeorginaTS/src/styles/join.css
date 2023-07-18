@@ -1,0 +1,60 @@
+#root {
+  border: 1px solid #21c9cc;
+  display: grid;
+  grid-template-rows: 95px 1fr 50px;
+  width: 100vw;
+  height: 100vh;
+}
+
+#join-section main {
+  border: 1px solid red;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accent-text {
+  font-size: 2em;
+  font-weight: bolder;
+  color: var(--accent-color);
+}
+
+form {
+  background-color: var(--footer-bg-color);
+  width: 90%;
+  padding: 25px 40px;
+  border-radius: 10px;
+}
+
+input {
+  width: 96%;
+  height: 24px;
+  background-color: var(--footer-bg-color);
+  border: 1px solid var(--body-bg-color);
+  color: var(--text-color);
+  font-size: 0.8em;
+  font-weight: normal;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+#join-section .circle1 {
+  position: absolute;
+  left: -10vw;
+  bottom: -10vw;
+  border-radius: 50%;
+  width: 40vw;
+  height: 40vw;
+  background-color: var(--circle1-color);
+  z-index: -1;
+}
+#join-section .circle2 {
+  position: absolute;
+  right: -25%;
+  top: 0;
+  border-radius: 50%;
+  width: 20vw;
+  height: 20vw;
+  background-color: var(--circle2-color);
+  z-index: -1;
+}
